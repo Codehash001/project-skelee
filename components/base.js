@@ -137,9 +137,10 @@ const handleNav = () => {
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
       {/* minting engine */}
-      <div className='w-800px flex flex-row items-center justify-between mt-8'>
+      <div className='w-[800px] flex flex-row items-center justify-between mt-8 filter backdrop-blur-lg p-4'>
         <div>
-          <img/>
+          <img src='/nft.gif'
+          className='w-[280px] h-[280px]'/>
         </div>
 
         <div className='flex flex-col items-center justify-between w-full p-6'>
