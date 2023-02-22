@@ -2,9 +2,7 @@ import Image from 'next/image'
 import { useState,useEffect } from "react"
 import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
-import data from "./data.json";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Darkmodebutton from './darkmode';
 import {Link} from 'react-scroll/modules';
 import {
   getTotalMinted,
