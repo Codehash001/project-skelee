@@ -122,16 +122,50 @@ const handleNav = () => {
   return (
     <>
     
-    <div className='font-Poppins text-white w-screen h-screen flex flex-col items-center justify-center lg:px-20 lg:py-16 px-6 py-6'>
+    <div className='font-Poppins text-white w-screen h-screen flex flex-col items-center justify-start lg:px-20 lg:py-16 px-6 py-6'>
       <h1 className='text-center font-medium text-lg'>SKELEE</h1>
-      <div className='w-[500px]'>
-      <p className='mt-8 text-center'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div className='w-[700px] mt-8'>
+      <p className='text-center'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <br/>
+        <br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
       </p>
       </div>
       
-      <h1 className='font-bold tracking-widest uppercase text-5xl text-center'>MINT</h1>
+      <h1 className='font-bold tracking-widest uppercase text-5xl text-center mt-8'>MINT</h1>
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
+
+      {/* minting engine */}
+      <div className='w-800px flex flex-row items-center justify-between mt-8'>
+        <div>
+          <img/>
+        </div>
+
+        <div className='flex flex-col items-center justify-between w-full p-6'>
+          <div className='flex justify-between w-full'>
+            <h1 className='text-lg text-center uppercase'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
+            <h1 className='text-lg text-center uppercase'>early access mint <br/> 02/24 11.00 - 22.30</h1>
+          </div>
+
+          {/* countdown */}
+          <div className='flex w-full justify-between'>
+            <h1 className='text-2xl text-center'>02 <br/>HRS</h1>
+            <h1 className='text-2xl text-center'>52 <br/>MINS</h1>
+            <h1 className='text-2xl text-center'>02 <br/>SECS</h1>
+          </div>
+
+          <div className='flex justify-between w-full'>
+            <h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
+            <h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
+            <h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
+
+          </div>
+
+          <button className='px-6 py-3 bg-black rounded-lg'>Connect Wallet</button>
+
+        </div>
+      </div>
     </div>
     
     </>
