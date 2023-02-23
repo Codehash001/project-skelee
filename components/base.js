@@ -122,25 +122,25 @@ const handleNav = () => {
   return (
     <>
     
-    <div className='font-Poppins text-white w-screen h-screen flex flex-col items-center justify-start lg:px-20 lg:py-16 px-6 py-6'>
+    <div className='font-Gotham text-white w-screen h-screen flex flex-col items-center justify-start lg:px-20 px-6 py-6'>
       <h1 className='text-center font-medium text-lg'>SKELEE</h1>
       <div className='w-[700px] mt-8'>
-      <p className='text-center'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <p className='text-center text-sm'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.
         <br/>
         <br/>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.
       </p>
       </div>
       
-      <h1 className='font-bold tracking-widest uppercase text-5xl text-center mt-8'>MINT</h1>
+      <h1 className='font-Akira font-bold tracking-widest uppercase text-5xl text-center mt-8'>MINT</h1>
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
       {/* minting engine */}
-      <div className='w-[800px] flex flex-row items-center justify-between mt-8 filter backdrop-blur-lg p-4'>
+      <div className='w-[800px] flex flex-row items-center justify-between mt-6 filter backdrop-blur-lg p-4'>
         <div>
           <img src='/nft.gif'
-          className='w-[280px] h-[280px]'/>
+          className='w-[400px] h-[400px]'/>
         </div>
 
         <div className='flex flex-col items-center justify-between w-full p-6'>
